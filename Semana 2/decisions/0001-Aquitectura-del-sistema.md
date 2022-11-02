@@ -3,12 +3,11 @@
 ## Identificador del Requisito
 
 Requisito a tratar:
-* [RF1](../Requisitos/rf1.md) "Elección de arquitectura"
-* [RF1.1](../Requisitos/rf1.1.md) "Arquitectura de microservicios"
+por hacer
 
 ## Contexto y problemas a resolver
 
-El cliente posee un sistema basado en una arquitectura Web de tres capas que desea migrar a una de microservicios.
+por hacer
 
 ## Opciones consideradas
 
@@ -50,9 +49,6 @@ Opción 1 elegida (Arquitectura de Microservicios) porque es el sistema que quie
 
 Opción elegida: [Arquitectura de Microservicios](https://docs.microsoft.com/es-es/azure/architecture/guide/architecture-styles/microservices) , porque es el sistema que quiere el cliente expresamente para mejorar la flexibilidad y escalabilidad.
 
-## Capturas CONTROL 
-![D0001](../capturasadmentor/D0001.jpg)
-
 ## UML de la decisión
 
-No se realiza ningún esquema UML debido a que es una decisión general de arquitectura sin tratar ninguna clase en concreto.
+Por hacer
