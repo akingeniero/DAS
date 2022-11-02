@@ -14,12 +14,12 @@
 
 ## Considered Options
 
-* [option 1: Base de datos SQL] : la base de datos implementada será una base de datos relacional SQL.
-* [option 2: Base de datos No SQL] : la base de datos implementada será una base de datos no relacional.
+* [option 1] : se implementará una base de datos relacional siguiendo el estandar SQL.
+* [option 2: Base de datos No SQL] : se implementará una base de datos no relacional.
 
 ## Decision Outcome
 
-Chosen option: "[option 1: Base de datos SQL]", because[permite almacenar de forma eficiente la información que necesitamos sin la complejidad que supone una base de datos no relacional.]
+Chosen option: "[option 1]", because[permite almacenar de forma eficiente la información que necesitamos sin la complejidad que supone una base de datos no relacional.]
 
 ### Positive Consequences <!-- optional -->
 
@@ -37,18 +37,16 @@ Chosen option: "[option 1: Base de datos SQL]", because[permite almacenar de for
 
 ## Pros and Cons of the Options
 
-### [option 1: Base de datos SQL]
+### [option 1]
 
 * Bueno, porque todos los datos que tenemos que guardar siguen el modelo relacional
 * Bueno, porque es un estándar asentado en el tiempo.
 * Bueno, ya que su uso suele estar extendido
 * Malo, porque hay que puede provocar problemas de escalabilidad en el futuro.
 
-**Decisión ASC: pendiente**
-
 ## Decisión final tomada
 
-Opción elegida: [Base de datos SQL]
+Opción elegida: [option 1]
 
 ## UML de la decisión
 
