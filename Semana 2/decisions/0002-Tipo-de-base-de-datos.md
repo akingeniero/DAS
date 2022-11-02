@@ -1,4 +1,4 @@
-# ADR-0002 Tipo de base de datos a utilizar
+# [ADD-0002 Tipo de base de datos a utilizar]
 
 * Status: [proposed]
 * Deciders: [???]
