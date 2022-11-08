@@ -1,7 +1,7 @@
 # [ADD-0001 Arquitectura-del-sistema]
 
 * Status: [acepted]
-* Deciders: [Daniel Gallardo Sergio Pérez]
+* Deciders: [Daniel Gallardo, Sergio Pérez]
 * Date: [2022-11-02]
 
 ## Contexto y problemas a resolver
@@ -48,6 +48,10 @@ Opción elegida: "[Arquitectura de Microservicios]" porque es el sistema que qui
 * Malo, porque [implica un mayor consumo de recursos, puesto que cada microservicio tiene su propio SO y dependencias]
 
 ### [Arquitectura por capas]
+
+* Bueno, porque [existe una jerarquía bien marcada entre elementos]
+* Malo, porque [ciertos elementos se quedarian fuera de esta jerarquía]
+* Malo, porque [no existe una escalabilidad independiente]
 
 ## UML de la decisión
 
