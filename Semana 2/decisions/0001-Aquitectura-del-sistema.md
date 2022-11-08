@@ -55,5 +55,5 @@ Opción elegida: "[opcion 1]" porque es el sistema que quiere el cliente expresa
 Opción elegida: [opcion 1], porque es el sistema que quiere el cliente expresamente para mejorar la flexibilidad y escalabilidad.
 
 ## UML de la decisión
-* [umlmicroservicios](../uml/umlMicroservicios.jpeg)
-* [ADMentor](../uml/ADMentor.PNG)
+![umlmicroservicios](../uml/umlMicroservicios.jpeg)
+![ADMentor](../uml/ADMentor.PNG)
