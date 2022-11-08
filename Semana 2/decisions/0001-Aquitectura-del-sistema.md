@@ -1,8 +1,8 @@
-# [ADR-0001 Arquitectura-del-sistema]
+# [ADD-0001 Arquitectura-del-sistema]
 
-* Status: [proposed]
+* Status: [acepted]
 * Deciders: [Daniel Gallardo Sergio Pérez]
-* Date: [2022-11-02] 
+* Date: [2022-11-02]
 
 ## Contexto y problemas a resolver
 
@@ -17,11 +17,9 @@
 * [Arquitectura de Microservicios](https://docs.microsoft.com/es-es/azure/architecture/guide/architecture-styles/microservices) : " La arquitectura de microservicios es un método de desarrollo de software que consiste en construir una aplicación como un conjunto de pequeños servicios, con operaciones bien definidas e independientes entre sí."
 * [Arquitectura de capas](https://docs.microsoft.com/es-es/azure/architecture/guide/architecture-styles/n-tier) : "La arquitectura en capas consta en dividir la aplicación en capas, con la intención de que cada capa tenga un rol muy definido."
 
-
 ## Decisiones tomadas
 
-Opción elegida: "[opcion 1]" porque es el sistema que quiere el cliente expresamente para mejorar la flexibilidad y escalabilidad.
-
+Opción elegida: "[Arquitectura de Microservicios]" porque es el sistema que quiere el cliente expresamente para mejorar la flexibilidad y escalabilidad.
 
 ### Consecuencias positivas <!-- optional -->
 
@@ -32,27 +30,24 @@ Opción elegida: "[opcion 1]" porque es el sistema que quiere el cliente expresa
 * [Facilidad a la hora de aplicar una implementación continua.]
 * [Es el que ha solicitado el cliente.]
 
-
 ### Consecuencias negativas <!-- optional -->
 
 * [Posible dificultad a la hora de migrar el sistema.]
 * [Tener verificado en la base de datos todos los microservicios del sistema para un mayor control]
 
-### Discusión ASC: Arquitectura de Microservicios
+## Pros y Contras de las Opciones
 
-* Bueno, porque es la arquitectura que ha solicitado el cliente
-* Bueno, porque los microservicios son más fáciles de mantener y testear, puesto que son servicios pequeños que hacen una sóla cosa, pero la hacen bien.
-* Bueno, ya que al no estar integrados en el sistema principal, son de fácil despliegue.
-* Bueno, ya que pueden tener una escalabilidad independiente y es más sencillo aislar fallos a un microservicio concreto, en vez de una sección o funcionalidad de la aplicación.
-* Malo, porque hay que lidiar con la complejidad adicional de los sistemas distribuidos.
-* Malo, porque hay que implementar dependencias de un servicio a otro, comunicación interna entre servicios, etc.
-* Malo, porque implica un mayor consumo de recursos, puesto que cada microservicio tiene su propio SO y dependencias.
+### [Arquitectura de microservicios]
 
-*Decisión ASC: arquitectura aceptada*
+* Bueno, porque [es la arquitectura que ha solicitado el cliente]
+* Bueno, porque [los microservicios son más fáciles de mantener y testear, puesto que son servicios pequeños que hacen una sóla cosa, pero la hacen bien]
+* Bueno, ya que [al no estar integrados en el sistema principal, son de fácil despliegue]
+* Bueno, ya que [pueden tener una escalabilidad independiente y es más sencillo aislar fallos a un microservicio concreto, en vez de una sección o funcionalidad de la aplicación]
+* Malo, porque [hay que lidiar con la complejidad adicional de los sistemas distribuidos]
+* Malo, porque [hay que implementar dependencias de un servicio a otro, comunicación interna entre servicios, etc.]
+* Malo, porque [implica un mayor consumo de recursos, puesto que cada microservicio tiene su propio SO y dependencias]
 
-## Decisión final tomada
-
-[Microservicios], porque es el sistema que quiere el cliente expresamente para mejorar la flexibilidad y escalabilidad.
+### [Arquitectura por capas]
 
 ## UML de la decisión
 
