@@ -1,40 +1,42 @@
-# ADR-0001 Arquitectura-del-sistema
+# [ADR-0001 Arquitectura-del-sistema]
 
-## Identificador del Requisito
-
-Requisito a tratar:
-por hacer
+* Status: [proposed]
+* Deciders: [Daniel Gallardo Sergio Pérez]
+* Date: [2022-11-02]] 
 
 ## Contexto y problemas a resolver
 
-Necesitamos diseñar un estructura para organizar el planteamiento del sistema requerido.
+[Necesitamos diseñar un estructura para organizar el planteamiento del sistema requerido.]
+
+## Requisitio de decisión
+
+* [RF-011](../requisitos/RF-011.md)
 
 ## Opciones consideradas
 
-* Opcion 1: [Arquitectura de Microservicios](https://docs.microsoft.com/es-es/azure/architecture/guide/architecture-styles/microservices)  " La arquitectura de microservicios es un método de desarrollo de software que consiste en construir una aplicación como un conjunto de pequeños servicios, con operaciones bien definidas e independientes entre sí."
-
-* Opcion 2: [Arquitectura de capas](https://docs.microsoft.com/es-es/azure/architecture/guide/architecture-styles/n-tier) "La arquitectura en capas consta en dividir la aplicación en capas, con la intención de que cada capa tenga un rol muy definido."
+* [Opcion 1]: [Arquitectura de Microservicios](https://docs.microsoft.com/es-es/azure/architecture/guide/architecture-styles/microservices)  " La arquitectura de microservicios es un método de desarrollo de software que consiste en construir una aplicación como un conjunto de pequeños servicios, con operaciones bien definidas e independientes entre sí."
+* [Opcion 2]: [Arquitectura de capas](https://docs.microsoft.com/es-es/azure/architecture/guide/architecture-styles/n-tier) "La arquitectura en capas consta en dividir la aplicación en capas, con la intención de que cada capa tenga un rol muy definido."
 
 
 ## Decisiones tomadas
 
-Opción 1 elegida (Arquitectura de Microservicios) porque es el sistema que quiere el cliente expresamente para mejorar la flexibilidad y escalabilidad.
+Opción elegida: "[opcion 1]" porque es el sistema que quiere el cliente expresamente para mejorar la flexibilidad y escalabilidad.
 
 
 ### Consecuencias positivas <!-- optional -->
 
-* Mejoras en la flexibilidad.
-* Mejoras en la escalabilidad.
-* Menos problemas para el cliente.
-* Código y mantenimiento más legible.
-* Facilidad a la hora de aplicar una implementación continua.
-* Es el que ha solicitado el cliente.
+* [Mejoras en la flexibilidad.]
+* [Mejoras en la escalabilidad.]
+* [Menos problemas para el cliente.]
+* [Código y mantenimiento más legible.]
+* [Facilidad a la hora de aplicar una implementación continua.]
+* [Es el que ha solicitado el cliente.]
 
 
 ### Consecuencias negativas <!-- optional -->
 
-* Posible dificultad a la hora de migrar el sistema.
-* Tener verificado en la base de datos todos los microservicios del sistema para un mayor control
+* [Posible dificultad a la hora de migrar el sistema.]
+* [Tener verificado en la base de datos todos los microservicios del sistema para un mayor control]
 
 ### Discusión ASC: Arquitectura de Microservicios
 
@@ -50,8 +52,6 @@ Opción 1 elegida (Arquitectura de Microservicios) porque es el sistema que quie
 
 ## Decisión final tomada
 
-Opción elegida: [Arquitectura de Microservicios](https://docs.microsoft.com/es-es/azure/architecture/guide/architecture-styles/microservices) , porque es el sistema que quiere el cliente expresamente para mejorar la flexibilidad y escalabilidad.
+Opción elegida: [opcion 1], porque es el sistema que quiere el cliente expresamente para mejorar la flexibilidad y escalabilidad.
 
 ## UML de la decisión
-
-Por hacer
