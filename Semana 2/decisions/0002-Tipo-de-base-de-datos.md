@@ -2,7 +2,7 @@
 
 * Status: [proposed]
 * Deciders: [Brais Cabo Felpete]
-* Date: [2022-11-02]] 
+* Date: [2022-11-02]]
 
 ## Context and Problem Statement
 
@@ -14,36 +14,34 @@
 
 ## Considered Options
 
-* [option 1] : se implementará una base de datos relacional siguiendo el estandar SQL.
-* [option 2: Base de datos No SQL] : se implementará una base de datos no relacional.
+* [Database-per-service](https://docs.aws.amazon.com/es_es/prescriptive-guidance/latest/modernization-data-persistence/database-per-service.html) : se usará el patrón Database-per-service, en el que cada microservicio tiene una base de datos independiente.
+* [Shared-database-per-service](https://docs.aws.amazon.com/es_es/prescriptive-guidance/latest/modernization-data-persistence/shared-database.html): se usará el patrón Shared-database-per-service, en el que los microservicios comparten una base de datos.
 
 ## Decision Outcome
 
-Chosen option: "[option 1]", because[permite almacenar de forma eficiente la información que necesitamos sin la complejidad que supone una base de datos no relacional.]
+Chosen option: "[Shared-database-per-service]", because[queremos garantizar la coherencia de los datos, y utilizar transacciones uniformes, ya que todos los microservicios operan sobre los mismos datos, por lo que nos ahorramos tener bases de datos repetidas.]
 
 ### Positive Consequences <!-- optional -->
 
-* [Más asentado a lo largo del tiempo.]
-* [Estándares bien definidos.]
-* [Sencillez en su utilización.]
-* [Atomicidad.]
-* [Escritura simple.]
+* [Garantizar la coherencia de los datos]
+* [Mantener y operar solo una base de datos.]
+* [Utilizar transacciones que proporcionan atomicidad, uniformidad, aislamiento y durabilidad (ACID, por sus siglas en inglés).]
 
-
-### Consecuencias negativas <!-- optional -->
+### Negative Consequences <!-- optional -->
 
 * [Posible dificultad a la hora de crecer.]
-* [Puede ser un poco más comleja su instalación.]
+* [Patrón difícil debido a las interdependencias entre sus microservicios existentes.]
 
 ## Pros and Cons of the Options
 
-### [option 1]
+### [Shared-database-per-service]
 
-* Bueno, porque todos los datos que tenemos que guardar siguen el modelo relacional
-* Bueno, porque es un estándar asentado en el tiempo.
-* Bueno, ya que su uso suele estar extendido
-* Malo, porque hay que puede provocar problemas de escalabilidad en el futuro.
+* Good, because [Permite mantener una sola base de datos]
+* Good, because [Permite garantizar la coherencia de los datos]
+* Good, because [Proporciona atomizidad]
+* Bad, because [Es más dificil de implementar]
 
-## Decisión final tomada
+### [Database-per-service]
 
-Opción elegida: [option 1]
+* Good, because [Permite descentralizar completamente los microservicios]
+* Bad, because [Debe administrar varias bases de datos relacionales y no relacionales]
