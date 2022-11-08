@@ -2,7 +2,7 @@
 
 * Status: [proposed]
 * Deciders: [Daniel Gallardo Sergio Pérez]
-* Date: [2022-11-02]] 
+* Date: [2022-11-02] 
 
 ## Contexto y problemas a resolver
 
@@ -14,8 +14,8 @@
 
 ## Opciones consideradas
 
-* [Opcion 1]: [Arquitectura de Microservicios](https://docs.microsoft.com/es-es/azure/architecture/guide/architecture-styles/microservices)  " La arquitectura de microservicios es un método de desarrollo de software que consiste en construir una aplicación como un conjunto de pequeños servicios, con operaciones bien definidas e independientes entre sí."
-* [Opcion 2]: [Arquitectura de capas](https://docs.microsoft.com/es-es/azure/architecture/guide/architecture-styles/n-tier) "La arquitectura en capas consta en dividir la aplicación en capas, con la intención de que cada capa tenga un rol muy definido."
+* [Arquitectura de Microservicios](https://docs.microsoft.com/es-es/azure/architecture/guide/architecture-styles/microservices) : " La arquitectura de microservicios es un método de desarrollo de software que consiste en construir una aplicación como un conjunto de pequeños servicios, con operaciones bien definidas e independientes entre sí."
+* [Arquitectura de capas](https://docs.microsoft.com/es-es/azure/architecture/guide/architecture-styles/n-tier) : "La arquitectura en capas consta en dividir la aplicación en capas, con la intención de que cada capa tenga un rol muy definido."
 
 
 ## Decisiones tomadas
@@ -52,8 +52,13 @@ Opción elegida: "[opcion 1]" porque es el sistema que quiere el cliente expresa
 
 ## Decisión final tomada
 
-Opción elegida: [opcion 1], porque es el sistema que quiere el cliente expresamente para mejorar la flexibilidad y escalabilidad.
+[Microservicios], porque es el sistema que quiere el cliente expresamente para mejorar la flexibilidad y escalabilidad.
 
 ## UML de la decisión
+<<<<<<< HEAD
 ![umlmicroservicios](../uml/umlMicroservicios.jpeg)
 ![ADMentor](../uml/ADMentor.PNG)
+=======
+!(../uml/umlMicroservicios.jpeg)
+!(../uml/ADMentor.PNG)
+>>>>>>> 11adaf85bd181c21f8d06224fcd4e55f27fdb7ef
