@@ -42,7 +42,3 @@ Chosen option: "[option 1]", because[son protocolos ya implementados, y ligeros,
 ## Decisión final tomada
 
 Opción elegida: [option 1]
-
-## UML de la decisión
-
-Por hacer
