@@ -1,7 +1,7 @@
 # [ADD-0003 Sistema de mensajería interna]
 
 * Status: [proposed]
-* Deciders: [???]
+* Deciders: [Brais Cabo Felpete]
 * Date: [2022-11-02]
 
 ## Context and Problem Statement

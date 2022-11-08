@@ -7,11 +7,14 @@ por hacer
 
 ## Contexto y problemas a resolver
 
-por hacer
+Necesitamos diseñar un estructura para organizar el planteamiento del sistema requerido.
 
 ## Opciones consideradas
 
-* Opcion 1: [Arquitectura de Microservicios](https://docs.microsoft.com/es-es/azure/architecture/guide/architecture-styles/microservices) "Explicación Arquitectura de Microservicios"
+* Opcion 1: [Arquitectura de Microservicios](https://docs.microsoft.com/es-es/azure/architecture/guide/architecture-styles/microservices)  " La arquitectura de microservicios es un método de desarrollo de software que consiste en construir una aplicación como un conjunto de pequeños servicios, con operaciones bien definidas e independientes entre sí."
+
+* Opcion 2: [Arquitectura de capas](https://docs.microsoft.com/es-es/azure/architecture/guide/architecture-styles/n-tier) "La arquitectura en capas consta en dividir la aplicación en capas, con la intención de que cada capa tenga un rol muy definido."
+
 
 ## Decisiones tomadas
 
@@ -43,7 +46,7 @@ Opción 1 elegida (Arquitectura de Microservicios) porque es el sistema que quie
 * Malo, porque hay que implementar dependencias de un servicio a otro, comunicación interna entre servicios, etc.
 * Malo, porque implica un mayor consumo de recursos, puesto que cada microservicio tiene su propio SO y dependencias.
 
-**Decisión ASC: arquitectura aceptada**
+*Decisión ASC: arquitectura aceptada*
 
 ## Decisión final tomada
 

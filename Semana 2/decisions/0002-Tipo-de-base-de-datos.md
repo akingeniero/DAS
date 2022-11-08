@@ -1,7 +1,7 @@
 # [ADD-0002 Tipo de base de datos a utilizar]
 
 * Status: [proposed]
-* Deciders: [???]
+* Deciders: [Brais Cabo Felpete]
 * Date: [2022-11-02]] 
 
 ## Context and Problem Statement
@@ -47,7 +47,3 @@ Chosen option: "[option 1]", because[permite almacenar de forma eficiente la inf
 ## Decisión final tomada
 
 Opción elegida: [option 1]
-
-## UML de la decisión
-
-Por hacer
