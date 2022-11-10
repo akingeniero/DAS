@@ -15,8 +15,8 @@ Los operarios de la factoria 4.0 deben estar permanente notificados a través de
 
 ## Opciones consideradas
 
-* [Broker MQTT](https://www.hivemq.com/blog/iot-event-driven-microservices-architecture-mqtt/) : "Uso de un gestor de eventos basado en el protocolo MQTT, que está especializado para ser usado con los dispositivos IoT"
-* [Broker HTTP](https://www.hivemq.com/blog/mqtt-vs-http-protocols-in-iot-iiot/) : "Gestor de eventos basado en el protocolo HTTP que se encarga de comunicar los sensores con la lógica de nuestra aplicación"
+* [Broker MQTT](https://www.hivemq.com/blog/iot-event-driven-microservices-architecture-mqtt/): "Uso de un gestor de eventos basado en el protocolo MQTT, que está especializado para ser usado con los dispositivos IoT"
+* [Broker HTTP](https://www.hivemq.com/blog/mqtt-vs-http-protocols-in-iot-iiot/): "Gestor de eventos basado en el protocolo HTTP que se encarga de comunicar los sensores con la lógica de nuestra aplicación"
 
 ## Decisiones tomadas
 
