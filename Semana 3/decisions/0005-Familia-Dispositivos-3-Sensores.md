@@ -2,7 +2,7 @@
 
 * Status: acepted
 * Deciders: Brais Cabo Felpete
-* Date: 2022-11-02
+* Date: 2022-11-10
 
 ## Contexto y problemas a resolver
 
@@ -44,4 +44,4 @@ Opción elegida: "Patrón Chain Of Responsability" porque este patrón permite l
 
 * Bueno, porque cualquier incoveniente que no se resuelva mediante un patrón se puede diseñar.
 * Malo, porque no está testeado ni probado, puede dar a fallos que resultarían en futuras actualizaciones de la arquitectura, diseño e implementación.
-* Malo, porque no obtenemos el acomplamiento, la felxibilidad y la encapsulación que nos podría dar un patrón de diseño
+* Malo, porque no obtenemos el acomplamiento, la felxibilidad y la encapsulación que nos podría ofecer un patrón de diseño
