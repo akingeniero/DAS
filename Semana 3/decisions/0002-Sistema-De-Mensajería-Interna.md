@@ -1,0 +1,51 @@
+# [ADD-0002 Sistema de mensajería interna]
+
+* Status: acepted
+* Deciders: Brais Cabo Felpete
+* Date: 2022-11-02
+
+## Contexto y problemas a resolver
+
+Los operarios de la factoria 4.0 deben estar permanente notificados a través de un sistema de mensajería interno y deben poderse suscribir a diferentes eventos y notificaciones como actualizaciones de la producción, fallos en los sensores o sobrecarga en la producción. Los operarios también deben poder enviar órdenes de trabajo a las máquinas que van a fabricar cada componente.
+
+## Requisitio de decisión
+
+* [RF-006](../requisitos/RF-006.md)
+* [RF-009](../requisitos/RF-009.md)
+
+## Opciones consideradas
+
+* [Broker MQTT](https://www.hivemq.com/blog/iot-event-driven-microservices-architecture-mqtt/) : "Uso de un gestor de eventos basado en el protocolo MQTT, que está especializado para ser usado con los dispositivos IoT"
+* [Broker HTTP](https://www.hivemq.com/blog/mqtt-vs-http-protocols-in-iot-iiot/) : "Gestor de eventos basado en el protocolo HTTP que se encarga de comunicar los sensores con la lógica de nuestra aplicación"
+
+## Decisiones tomadas
+
+Opción elegida: "Broker MQTT" porque es un protocolo pensado especialmente para los sistemas que usan dispositivos IoT, por lo que se va a adaptar mejor al sistema que tenemos que desarrollar. También permite enviar mensajes a las distintas máquinas, por lo que realmente nos está proporcionando un bus asíncrono para que se comuniquen los distintos componentes de nuestra fábrica. A su vez, debemos tener en cuenta que proporciona un buen soporte para un elevado flujo de datos, lo que es completamente necesario en sistemas que usan dispostivos IoT.
+
+### Consecuencias positivas <!-- optional -->
+
+* Mejor mánejo de grandes flujos de datos, muy habituales en los sistemas que trabajan con dispositivos IoT.
+* Posibilidad de que los componentes del sistema intercambien información los unos con los otros, lo que reduce la complejidad asociada habituálmente a este tipo de protocolos.
+* Conexión muy estable entre la comunicación de los distintos componentes de nuestro sistema.
+* Utilización de un protocolo Publish/Subscribe, lo que se adapta completamente a nuestro sistema y permite reducir los costos que produce un protocolo basado en el polling.
+* La llegada de datos está asegurada, por lo que en situaciones críticas, todos los datos que sean enviados, serán recibidos, lo que nos permite actuar con la mayor brevedad posible.
+
+### Consecuencias negativas <!-- optional -->
+
+* Uso de un protocolo menos conocido.
+
+## Pros y Contras de las Opciones
+
+### Broker MQTT
+
+* Bueno, porque facilita el trabajo con grandes volúmenes de datos.
+* Bueno, porque es muy seguro.
+* Bueno, ya que es un protocolo Publish/Subscribe lo que se adapta mejor a la arquitectura necesitada por el sistema.
+* Bueno, ya que asegura la llegada de los datos.
+* Malo, porque es dificil para los desarrolladores trabajar con el.
+
+### Broker HTTP
+
+* Bueno, porque es un protocolo muy estandarizado.
+* Malo, porque se basa en el polling lo que consume más recursos.
+* Malo, porque en caso de que una máquina se haya desconectado de la red por un fallo, el mensaje no llegaría a los centros de tratamiento de datos.
