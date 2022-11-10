@@ -2,7 +2,7 @@
 
 * Status: acepted
 * Deciders: Brais Cabo Felpete
-* Date: 2022-11-02
+* Date: 2022-11-10
 
 ## Contexto y problemas a resolver
 

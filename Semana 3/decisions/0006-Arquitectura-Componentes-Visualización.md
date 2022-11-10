@@ -2,58 +2,45 @@
 
 * Status: acepted
 * Deciders: Brais Cabo Felpete
-* Date: 2022-11-02
+* Date: 2022-11-10
 
 ## Contexto y problemas a resolver
 
-[Necesitamos diseñar un estructura para organizar el planteamiento del sistema requerido.]
+Necesitamos que el sistema disponga de un centro de notificaciones, el cuál permita gestionar todas las funcionalidades del sistema. También necesitamos una aplicación móvil para que los operadores puedan enviar órdenes de trabajo y recibir notificaciones e informes de los eventos a los que están suscritos.
 
-## Requisitio de decisión
+## Requisitos de decisión
 
-* [RF-011](../requisitos/RF-011.md)
+* [RF-004](../requisitos/RF-004.md)
+* [RF-008](../requisitos/RF-008.md)
 
 ## Opciones consideradas
 
-* [Arquitectura de Microservicios](https://docs.microsoft.com/es-es/azure/architecture/guide/architecture-styles/microservices) : " La arquitectura de microservicios es un método de desarrollo de software que consiste en construir una aplicación como un conjunto de pequeños servicios, con operaciones bien definidas e independientes entre sí."
-* [Arquitectura de capas](https://docs.microsoft.com/es-es/azure/architecture/guide/architecture-styles/n-tier) : "La arquitectura en capas consta en dividir la aplicación en capas, con la intención de que cada capa tenga un rol muy definido."
+* [Modelo Vista Controlador](https://www.freecodecamp.org/news/the-model-view-controller-pattern-mvc-architecture-and-frameworks-explained/): "El modelo vista controlador es un estilo arquitectónico que nos permite tener múltiples vistas de los mismos datos."
+* [Cliente Servidor](https://docs.microsoft.com/es-es/azure/architecture/guide/architecture-styles/n-tier): "La arquitectura cliente servidor, se basa en un servidor, al que se pueden conectar múltiples clientes para solicitar los datos que necesitan."
 
 ## Decisiones tomadas
 
-Opción elegida: "[Arquitectura de Microservicios]" porque es el sistema que quiere el cliente expresamente para mejorar la flexibilidad y escalabilidad.
+Opción elegida: "Modelo Visto Controlador" por que permite crear múltiples clientes para visualizar los datos de nuestro sistema, sin la necesidad de aumentar la complejidad de la lógica interna.
 
 ### Consecuencias positivas <!-- optional -->
 
-* [Mejoras en la flexibilidad.]
-* [Mejoras en la escalabilidad.]
-* [Menos problemas para el cliente.]
-* [Código y mantenimiento más legible.]
-* [Facilidad a la hora de aplicar una implementación continua.]
-* [Es el que ha solicitado el cliente.]
+* Separación entre la interfaz de usuario y la lógica de programa.
+* Los componentes son reutilizables.
+* Posibilidad de múltiples interfaces de usuario sin complicar la lógica interna del programa.
 
 ### Consecuencias negativas <!-- optional -->
 
-* [Posible dificultad a la hora de migrar el sistema.]
-* [Tener verificado en la base de datos todos los microservicios del sistema para un mayor control]
+* Posible dificultad a la hora de diseñar el sistema.
 
 ## Pros y Contras de las Opciones
 
-### [Arquitectura de microservicios]
+### [Modelo Vista Controlador]
 
-* Bueno, porque [es la arquitectura que ha solicitado el cliente]
-* Bueno, porque [los microservicios son más fáciles de mantener y testear, puesto que son servicios pequeños que hacen una sóla cosa, pero la hacen bien]
-* Bueno, ya que [al no estar integrados en el sistema principal, son de fácil despliegue]
-* Bueno, ya que [pueden tener una escalabilidad independiente y es más sencillo aislar fallos a un microservicio concreto, en vez de una sección o funcionalidad de la aplicación]
-* Malo, porque [hay que lidiar con la complejidad adicional de los sistemas distribuidos]
-* Malo, porque [hay que implementar dependencias de un servicio a otro, comunicación interna entre servicios, etc.]
-* Malo, porque [implica un mayor consumo de recursos, puesto que cada microservicio tiene su propio SO y dependencias]
+* Bueno, porque permite separar la lógica del programa de la interfaz de usuario.
+* Bueno, porque permite mantener la aplicación de forma sencilla.
+* Bueno, porque facilita la creación de múltiples interfaces de usuario que usan los mismos datos.
+* Malo, porque puede complicar el diseño de la arquitectura.
 
-### [Arquitectura por capas]
+### [Cliente Servidor]
 
-* Bueno, porque [existe una jerarquía bien marcada entre elementos]
-* Malo, porque [ciertos elementos se quedarian fuera de esta jerarquía]
-* Malo, porque [no existe una escalabilidad independiente]
-
-## UML de la decisión
-
-![umlmicroservicios](../uml/umlMicroservicios.jpeg)
-![ADMentor](../uml/ADMentor.PNG)
+* Malo, porque complica la creación de múltiples interfaces de usuario.
