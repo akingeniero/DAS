@@ -1,4 +1,4 @@
-# [ADD-0001 Arquitectura componentes ]
+# ADD-0002 Sistema de Mensajería Interna
 
 * Status: [acepted]
 * Deciders: [Daniel Gallardo, Sergio Pérez]
