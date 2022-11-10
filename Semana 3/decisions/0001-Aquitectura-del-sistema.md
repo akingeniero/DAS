@@ -1,5 +1,3 @@
-# [ADD-0001 Arquitectura del sistema]
-
 * Status: [acepted]
 * Deciders: [Daniel Gallardo, Sergio Pérez]
 * Date: [2022-11-02]
@@ -10,32 +8,32 @@
 
 ## Requisitio de decisión
 
-* [RF-010](../requisitos/RF-010.md)
+* [RF-011](../requisitos/RF-011.md)
 
 ## Opciones consideradas
 
-* [PL] : "Es la programación matemática dedicado a maximizar o minimizar (optimizar) una función lineal, denominada función objetivo, de tal forma que las variables de dicha función estén sujetas a una serie de restricciones expresadas mediante un sistema de ecuaciones o inecuaciones también lineales"
-
-* [Regresión_lineal]: " es un modelo matemático usado para aproximar la relación de dependencia entre una variable dependiente Y, m variables independientes X"
+* [Arquitectura de Microservicios](https://docs.microsoft.com/es-es/azure/architecture/guide/architecture-styles/microservices) : " La arquitectura de microservicios es un método de desarrollo de software que consiste en construir una aplicación como un conjunto de pequeños servicios, con operaciones bien definidas e independientes entre sí."
+* [Arquitectura de capas](https://docs.microsoft.com/es-es/azure/architecture/guide/architecture-styles/n-tier) : "La arquitectura en capas consta en dividir la aplicación en capas, con la intención de que cada capa tenga un rol muy definido."
 
 ## Decisiones tomadas
 
-Opción elegida: "[PL]" porque el sistema requiere distribuir las ordenes de trabajo para que no se solapen y que dependiendo de una variables de eficacia se distribuiran de manera eficiente.
+Opción elegida: "[Arquitectura de Microservicios]" porque es el sistema que quiere el cliente expresamente para mejorar la flexibilidad y escalabilidad.
 
 ### Consecuencias positivas <!-- optional -->
 
+* [Mejoras en la flexibilidad.]
 * [Mejoras en la escalabilidad.]
-* [Simple de realizar ]
+* [Menos problemas para el cliente.]
 * [Código y mantenimiento más legible.]
+* [Facilidad a la hora de aplicar una implementación continua.]
+* [Es el que ha solicitado el cliente.]
 
 ### Consecuencias negativas <!-- optional -->
 
-* [Refresecar las variables dependiendo de los datos en directo es costoso]
+* [Posible dificultad a la hora de migrar el sistema.]
+* [Tener verificado en la base de datos todos los microservicios del sistema para un mayor control]
 
 ## Pros y Contras de las Opciones
-
-* [la prediccion se debe dejar en un segundo plano ]
-
 
 ### [Arquitectura de microservicios]
 
