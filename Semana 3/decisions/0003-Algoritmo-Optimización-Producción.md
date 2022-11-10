@@ -23,13 +23,13 @@ Opción elegida: "[PL]" Un PL con datos en directo iría administrando tareas y 
 
 ### Consecuencias positivas <!-- optional -->
 
-* [Administracion de ordenes eficiente en cada instante]
-* [Cumpliria con las restricciones]
-* [Podria actuar ante imprevistos]
+* Administracion de ordenes eficiente en cada instante
+* Cumpliria con las restricciones
+* Podria actuar ante imprevistos
 
 ### Consecuencias negativas <!-- optional -->
 
-* [Tener siempre una buena fuente de datos]
+* Tener siempre una buena fuente de datos
 
 ## Pros y Contras de las Opciones
 

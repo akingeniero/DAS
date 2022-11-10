@@ -23,14 +23,14 @@ Opción elegida: "[RRN]" porque son capaces de descubrir correlaciones temporale
 
 ### Consecuencias positivas <!-- optional -->
 
-* [Predicen atraves de un porcentaje la posibilidad de fallo]
-* [Con LSTM es capaz de aumentar la memoria]
-* [COn LSTM optimiza y rechaza los datos inecesario]
+* Predicen atraves de un porcentaje la posibilidad de fallo
+* Con LSTM es capaz de aumentar la memoria
+* COn LSTM optimiza y rechaza los datos inecesario
 
 ### Consecuencias negativas <!-- optional -->
 
-* [El entrnamiento del modelo]
-* [Tener siempre una buena fuente de datos]
+* El entrnamiento del modelo
+* Tener siempre una buena fuente de datos
 
 ## Pros y Contras de las Opciones
 
