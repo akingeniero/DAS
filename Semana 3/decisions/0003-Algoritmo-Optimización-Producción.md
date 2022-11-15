@@ -6,7 +6,7 @@
 
 ## Contexto y problemas a resolver
 
-algoritmo para asignar los recursos de la manera mas eficaz 
+algoritmo para asignar los recursos de la manera mas eficaz
 
 ## Requisitio de decisión
 
