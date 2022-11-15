@@ -1,11 +1,12 @@
-# [ADD-0003 Algoritmo-de-predicción-de-fallos]
+# [ADD-0008 Diseño-Algoritmos]
 
-* Status: [acepted]
-* Date: [2022-11-10]
+* Status: acepted
+* Deciders: Daniel Gallardo, Sergio Pérez
+* Date: 2022-11-10
 
 ## Contexto y problemas a resolver
 
-* La selección del algoritmo adecuado
+* Se requiere organizar los algoritmos para que dependiendo de la situacion, se eliga que algoritmo utilizar en cada momento.
 
 ## Requisitio de decisión
 
@@ -16,16 +17,17 @@
 
 * [Strategy]: " Strategy es un patrón de diseño de comportamiento que te permite definir una familia de algoritmos, colocar cada uno de ellos en una clase separada y hacer sus objetos intercambiables"
 
-* [Chain_of_Responsibility] : "es un patrón de diseño de comportamiento que te permite pasar solicitudes a lo largo de una cadena de manejadores"
+* [Chain_of_Responsibility] : " Es un patrón de diseño de comportamiento que te permite pasar solicitudes a lo largo de una cadena de manejadores"
 
 ## Decisiones tomadas
 
-Opción elegida: "[Strategy]" porque cubre lo solicitado por la documentacion.
+Opción elegida: "Strategy" porque cubre lo solicitado por la documentacion. Lo que se pide no es una comunicacion si no elegir dependiendo de la ocasión.
 
 ### Consecuencias positivas <!-- optional -->
 
 * Te permite alternar.
 * Es un patron de diseño y esta testeado.
+* No se pierden recursos.
 
 ### Consecuencias negativas <!-- optional -->
 
@@ -33,15 +35,17 @@ Opción elegida: "[Strategy]" porque cubre lo solicitado por la documentacion.
 
 ## Pros y Contras de las Opciones
 
-### [Strategy]
+### Strategy
 
-* Bueno, porque no te limita a un algoritmo
-* Malo, porque porque no se pasa informacion
+* Bueno, porque no te limita a la utilizacion final de un algoritmo.
+* Bueno, porque elige el mejor algoritmo para cada ocasion.
+* Malo, porque porque no se pasa informacion entre algoritmos.
 
-### [Chain_of_Responsibility]
+### Chain_of_Responsibility
 
-* Bueno, porque porque se pasa informacion
-* Malo, porque  te limita a un algoritmo
+* Bueno, porque porque se pasa informacion.
+* Malo, porque no te permite elegir el mejor algoritmo.
+* Malo, porque  te limita a un algoritmo.
 
 ## UML de la decisión
 
