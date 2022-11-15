@@ -46,6 +46,3 @@ Opción elegida: "Strategy" porque cubre lo solicitado por la documentacion. Lo 
 * Malo, porque no te permite elegir el mejor algoritmo.
 * Malo, porque  te limita a un algoritmo.
 
-## UML de la decisión
-
-![ADMentor](../uml/ADMentor.PNG)
