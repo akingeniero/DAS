@@ -1,8 +1,7 @@
 # [ADD-0008 Diseño-Algoritmos]
 
 * Status: acepted
-* Deciders: Daniel Gallardo, Sergio Pérez
-* Date: 2022-11-10
+* Date: 2022-11-15
 
 ## Contexto y problemas a resolver
 
