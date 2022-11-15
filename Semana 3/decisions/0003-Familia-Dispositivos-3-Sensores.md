@@ -14,7 +14,7 @@ Los dispositivos de esta familia estan compuestos por tres sensores en los que e
 ## Opciones consideradas
 
 * [Patrón Chain Of Responsability](https://refactoring.guru/es/design-patterns/chain-of-responsibility) : "Patrón de diseño de comportamiento que te permite pasar solicitudes a lo largo de una cadena de manejadores, en este caso, los sensores"
-* [Patrón propio] : "Diseñar el sistema sin tener en cuenta ningún patrón de diseño y hacerlo mediante clases de sensores"
+* Patrón propio : "Diseñar el sistema sin tener en cuenta ningún patrón de diseño y hacerlo mediante clases de sensores"
 
 ## Decisiones tomadas
 
