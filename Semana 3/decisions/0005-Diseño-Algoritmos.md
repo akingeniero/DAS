@@ -1,8 +1,7 @@
-# [ADD-0008 Diseño-Algoritmos]
+# ADD-0006 Diseño-Algoritmos
 
 * Status: acepted
-* Deciders: Daniel Gallardo, Sergio Pérez
-* Date: 2022-11-10
+* Date: 2022-11-15
 
 ## Contexto y problemas a resolver
 
@@ -15,9 +14,9 @@
 
 ## Opciones consideradas
 
-* [Strategy]: " Strategy es un patrón de diseño de comportamiento que te permite definir una familia de algoritmos, colocar cada uno de ellos en una clase separada y hacer sus objetos intercambiables"
+* [Strategy](https://refactoring.guru/es/design-patterns/strategy): " Strategy es un patrón de diseño de comportamiento que te permite definir una familia de algoritmos, colocar cada uno de ellos en una clase separada y hacer sus objetos intercambiables"
 
-* [Chain_of_Responsibility] : " Es un patrón de diseño de comportamiento que te permite pasar solicitudes a lo largo de una cadena de manejadores"
+* [Chain_of_Responsibility](https://refactoring.guru/es/design-patterns/chain-of-responsibility) : " Es un patrón de diseño de comportamiento que te permite pasar solicitudes a lo largo de una cadena de manejadores"
 
 ## Decisiones tomadas
 
@@ -49,4 +48,3 @@ Opción elegida: "Strategy" porque cubre lo solicitado por la documentacion. Lo 
 
 ## UML de la decisión
 
-![ADMentor](../uml/ADMentor.PNG)
