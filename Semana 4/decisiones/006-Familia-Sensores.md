@@ -1,7 +1,7 @@
 # ADD-0006 Familia-Sensores
 
 * Status: acepted
-* Date: 2022-11-10
+* Date: 2022-11-16
 
 ## Contexto y problemas a resolver
 
