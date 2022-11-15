@@ -1,7 +1,8 @@
 # ADD-0006 Diseño-Algoritmos
 
 * Status: acepted
-* Date: 2022-11-15
+* Deciders: Daniel Gallardo, Sergio Pérez
+* Date: 2022-11-10
 
 ## Contexto y problemas a resolver
 
@@ -48,3 +49,4 @@ Opción elegida: "Strategy" porque cubre lo solicitado por la documentacion. Lo 
 
 ## UML de la decisión
 
+![ADMentor](../uml/ADMentor.PNG)
