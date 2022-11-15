@@ -1,7 +1,6 @@
 # [ADD-0003 Algoritmo-de-optimizacion-de-produccion]
 
 * Status: [acepted]
-* Deciders: [Daniel Gallardo, Sergio Pérez]
 * Date: [2022-11-10]
 
 ## Contexto y problemas a resolver

@@ -1,7 +1,6 @@
 # [ADD-0003 Mensajería y análisis]
 
 * Status: [acepted]
-* Deciders: [Brais Cabo Felpete]
 * Date: [2022-11-07]
 
 ## Context and Problem Statement

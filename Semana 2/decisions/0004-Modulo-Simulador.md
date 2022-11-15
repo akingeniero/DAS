@@ -1,7 +1,6 @@
 # [ADD-0004 Módulo Simulador]
 
 * Status: [proposed]
-* Deciders: [Daniel Gallardo, Sergio Pérez]
 * Date: [2022-11-07]
 
 ## Contexto y problemas a resolver

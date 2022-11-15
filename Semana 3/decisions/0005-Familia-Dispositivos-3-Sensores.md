@@ -1,7 +1,6 @@
 # ADD-0005 Familia de dispositivos con 3 sensores
 
 * Status: acepted
-* Deciders: Brais Cabo Felpete
 * Date: 2022-11-15
 
 ## Contexto y problemas a resolver

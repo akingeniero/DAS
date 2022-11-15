@@ -1,7 +1,6 @@
 # [ADD-0002 Tipo de base de datos a utilizar]
 
 * Status: [acepted]
-* Deciders: [Brais Cabo Felpete]
 * Date: [2022-11-07]
 
 ## Contexto y problemas a resolver

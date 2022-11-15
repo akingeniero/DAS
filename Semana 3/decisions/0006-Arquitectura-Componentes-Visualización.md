@@ -1,7 +1,6 @@
 # ADD-0006 Arquitectura Secundaria para los componentes de visualización
 
 * Status: acepted
-* Deciders: Brais Cabo Felpete
 * Date: 2022-11-10
 
 ## Contexto y problemas a resolver
