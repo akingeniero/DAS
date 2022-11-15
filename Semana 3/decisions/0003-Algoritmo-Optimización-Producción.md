@@ -14,12 +14,12 @@ algoritmo para asignar los recursos de la manera mas eficaz
 
 ## Opciones consideradas
 
-* [PL]: " Realizar un problema de optimizacion dada unas restricciones y valores de posibles fallos "
+* [PL]: " Realizar un problema de optimizacion dada unas restricciones "
 * [Asignacion_fija] : "asignar segun el rendimiento"
 
 ## Decisiones tomadas
 
-Opción elegida: "[PL]" Un PL con datos en directo iría administrando tareas y en caso de que llegara una alerta de prediccion de fallo redirigiria las ordenes.
+Opción elegida: "[PL]" Un PL con datos en directo .
 
 ### Consecuencias positivas <!-- optional -->
 
