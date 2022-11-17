@@ -1,4 +1,4 @@
-# ADD-0005 Familia de dispositivos con 3 sensores
+# ADD-0003 Familia de dispositivos con 3 sensores
 
 * Status: acepted
 * Date: 2022-11-15
