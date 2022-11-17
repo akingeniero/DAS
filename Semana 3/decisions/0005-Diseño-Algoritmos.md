@@ -1,4 +1,4 @@
-# ADD-0005 Diseño-Algoritmos
+# ADD-0005 Diseño Algoritmos
 
 * Status: acepted
 * Date: 2022-11-15

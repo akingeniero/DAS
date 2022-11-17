@@ -1,4 +1,4 @@
-# ADD-0006 Familia-Sensores
+# ADD-0006 Familia Sensores
 
 * Status: acepted
 * Date: 2022-11-16
