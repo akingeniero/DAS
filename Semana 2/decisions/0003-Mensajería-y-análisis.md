@@ -12,7 +12,7 @@ productivo y las órdenes de trabajo. Necesitamos saber si se van a agrupar las 
 
 * [RF-001](../requisitos/RF-001.md)
 * [RF-002](../requisitos/RF-002.md)
-* [RF-001](../requisitos/RF-007.md)
+* [RF-007](../requisitos/RF-007.md)
 
 ## Considered Options
 
