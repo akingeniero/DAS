@@ -1,7 +1,6 @@
 # ADD-0002 Sistema de mensajería interna
 
-* Status: acepted
-* Date: 2022-11-10
+* Date: 2022-11-22
 
 ## Contexto y problemas a resolver
 
@@ -14,8 +13,8 @@ Los operarios de la factoria 4.0 deben estar permanentemente notificados a trav�
 
 ## Opciones consideradas
 
-* [Broker MQTT](https://www.hivemq.com/blog/iot-event-driven-microservices-architecture-mqtt/): "Uso de un gestor de eventos basado en el protocolo MQTT, que está especializado para ser usado con los dispositivos IoT"
-* [Broker HTTP](https://www.hivemq.com/blog/mqtt-vs-http-protocols-in-iot-iiot/): "Gestor de eventos basado en el protocolo HTTP que se encarga de comunicar los sensores con la lógica de nuestra aplicación"
+* [Broker MQTT](./0002.1-Broker-Comunicacion-MQTT.md): "Uso de un gestor de eventos basado en el protocolo MQTT, que está especializado para ser usado con los dispositivos IoT"
+* [Broker HTTP](./0002.2-Broker-Comunicaci%C3%B3n-HTTP.md): "Gestor de eventos basado en el protocolo HTTP que se encarga de comunicar los sensores con la lógica de nuestra aplicación"
 
 ## Decisiones tomadas
 
@@ -33,18 +32,7 @@ Opción elegida: "Broker MQTT" porque es un protocolo pensado especialmente para
 
 * Uso de un protocolo menos conocido.
 
-## Pros y Contras de las Opciones
+### Opciones Relacionadas
 
-### Broker MQTT
-
-* Bueno, porque facilita el trabajo con grandes volúmenes de datos.
-* Bueno, porque es muy seguro.
-* Bueno, ya que es un protocolo Publish/Subscribe lo que se adapta mejor a la arquitectura necesitada por el sistema.
-* Bueno, ya que asegura la llegada de los datos.
-* Malo, porque es dificil para los desarrolladores trabajar con el.
-
-### Broker HTTP
-
-* Bueno, porque es un protocolo muy estandarizado.
-* Malo, porque se basa en el polling lo que consume más recursos.
-* Malo, porque en caso de que una máquina se haya desconectado de la red por un fallo, el mensaje no llegaría a los centros de tratamiento de datos.
+* [Broker MQTT](./0002.1-Broker-Comunicacion-MQTT.md)
+* [Broker HTTP](./0002.2-Broker-Comunicaci%C3%B3n-HTTP.md)
