@@ -5,7 +5,7 @@
 
 ## Contexto y problemas a resolver
 
-*  si el número de intentos de conectar con un dispositivo que falla supera un
+* si el número de intentos de conectar con un dispositivo que falla supera un
 umbral entonces se deberán suspender los intentos de conexión y considerar al
 dispositivo fuera de servicio.
 
@@ -47,14 +47,14 @@ Opción elegida: "Retry" es mas especifica que el proxy, las dos opciones son mu
 * Bueno, ya que soporta fallos a la hora de la conexion.
 * Malo,La respuesta del servicio puede retrasarse.
 
-
 ### Proxy
 
-* Bueno, Puedes controlar el objeto de servicio sin que los clientes lo sepan.
-* Bueno, Puedes gestionar el ciclo de vida del objeto de servicio cuando a los clientes no les importa.
-* Bueno, El proxy funciona incluso si el objeto de servicio no está listo o no está disponible.
-* Malo, La respuesta del servicio puede retrasarse.
+* Bueno, porque Puedes controlar el objeto de servicio sin que los clientes lo sepan.
+* Bueno, porque Puedes gestionar el ciclo de vida del objeto de servicio cuando a los clientes no les importa.
+* Bueno, porque El proxy funciona incluso si el objeto de servicio no está listo o no está disponible.
+* Malo, porque La respuesta del servicio puede retrasarse.
 
 ### Funcion del emisor
-* Malo, saturamos al emisor.
-* Malo, bloqueamos de la ralizacion de otra funcionalidad.
+
+* Malo, porque saturamos al emisor.
+* Malo, porque bloqueamos de la ralizacion de otra funcionalidad.

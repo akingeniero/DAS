@@ -41,10 +41,6 @@ Opción elegida: "Adapter" porque optimizarias los recursos teniendo que tratar 
 
 ### Tratarlos_por_canales_distintos
 
-* Bueno, la complejidad general del código no aumenta.
-* Malo, tengo generaria complejidad al tratar los datos
+* Bueno, porque la complejidad general del código no aumenta.
+* Malo, porque tengo generaria complejidad al tratar los datos.
 * Malo, porque no es escalable.
-
-## UML de la decisión
-
-![ADMentor](../uml/ADMentor.PNG)
