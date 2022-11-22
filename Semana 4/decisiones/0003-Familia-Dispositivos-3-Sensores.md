@@ -1,7 +1,6 @@
 # ADD-0003 Familia de dispositivos con 3 sensores
 
-* Status: acepted
-* Date: 2022-11-15
+* Date: 2022-11-22
 
 ## Contexto y problemas a resolver
 
@@ -13,8 +12,8 @@ Los dispositivos de esta familia estan compuestos por tres sensores en los que e
 
 ## Opciones consideradas
 
-* [Patrón Chain Of Responsability](https://refactoring.guru/es/design-patterns/chain-of-responsibility) : "Patrón de diseño de comportamiento que te permite pasar solicitudes a lo largo de una cadena de manejadores, en este caso, los sensores"
-* Patrón propio : "Diseñar el sistema sin tener en cuenta ningún patrón de diseño y hacerlo mediante clases de sensores"
+* [Patrón Chain Of Responsability](./0003.1-Chain-of-Responsability.md): "Patrón de diseño de comportamiento que te permite pasar solicitudes a lo largo de una cadena de manejadores, en este caso, los sensores"
+* [Patrón propio](./0003.2-Patron-Propio.md): "Diseñar el sistema sin tener en cuenta ningún patrón de diseño y hacerlo mediante clases de sensores"
 
 ## Decisiones tomadas
 
@@ -29,18 +28,7 @@ Opción elegida: "Patrón Chain Of Responsability" porque este patrón permite l
 
 * No garantiza la recepción, no hay receptor explícito
 
-## Pros y Contras de las Opciones
+### Opciones Relacionadas
 
-### Patrón Chain Of Responsability
-
-* Bueno, porque reduce el acomplamiento y otorga una mayor flexibilidad a la hora de asignar responsabilidades a los sensores.
-* Bueno, porque se ajusta de manera exacta al problema planteado.
-* Bueno, ya que es un diseño probado y testeado.
-* Bueno, ya que favorece a la encapsulación.
-* Malo, porque no garantiza la recepción ya que no hay receptor explícito.
-
-### Diseño Propio
-
-* Bueno, porque cualquier incoveniente que no se resuelva mediante un patrón se puede diseñar.
-* Malo, porque no está testeado ni probado, puede dar a fallos que resultarían en futuras actualizaciones de la arquitectura, diseño e implementación.
-* Malo, porque no obtenemos el acomplamiento, la felxibilidad y la encapsulación que nos podría ofecer un patrón de diseño
+* [Patrón Chain Of Responsability](./0003.1-Chain-of-Responsability.md)
+* [Patrón propio](./0003.2-Patron-Propio.md)
