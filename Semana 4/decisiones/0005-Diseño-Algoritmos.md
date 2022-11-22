@@ -35,3 +35,7 @@ Opción elegida: "Strategy" porque cubre lo solicitado por la documentacion. Lo 
 
 * [Strategy](./0005.1-Strategy.md):
 * [Chain_of_Responsibility](./0005.2-Chain-of-Responsability-Algoritmos.md)
+
+## UML de la decisión
+
+![umlAlgoritmos](../uml/algoritmos.png)

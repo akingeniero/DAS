@@ -36,3 +36,7 @@ Opción elegida: "Broker MQTT" porque es un protocolo pensado especialmente para
 
 * [Broker MQTT](./0002.1-Broker-Comunicacion-MQTT.md)
 * [Broker HTTP](./0002.2-Broker-Comunicacion-HTTP.md)
+
+## UML de la decisión
+
+![umlBroker](../uml/broker.png)

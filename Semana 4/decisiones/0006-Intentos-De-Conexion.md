@@ -43,3 +43,7 @@ Opción elegida: "Retry" es mas especifica que el proxy, las dos opciones son mu
 * [Proxy](./0006.2-Proxy.md): "Un proxy controla el acceso al objeto original, permitiéndote hacer algo antes o después de que la solicitud llegue al objeto original."
 
 * [Funcion del emisor](./0006.2-Proxy.md): "el emisor controla si se ha pasado el umbral de intetos de conexiones."
+
+## UML de la decisión
+
+![umlRetry](../uml/retry.png)

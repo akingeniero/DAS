@@ -32,3 +32,7 @@ Opción elegida: "Patrón Chain Of Responsability" porque este patrón permite l
 
 * [Patrón Chain Of Responsability](./0003.1-Chain-of-Responsability.md)
 * [Patrón propio](./0003.2-Patron-Propio.md)
+
+## UML de la decisión
+
+![umlSensores](../uml/sensores.png)
