@@ -36,7 +36,7 @@ Opción elegida: "Event driven", porque es el sistema que más se adapta a los r
 ### Opciones Relacionadas
 
 * [Message driven](./0001.1-Message-Driven.md)
-* [Arquitectura de Microservicios](./0001.2-Microservicios.md) bien definidas e independientes entre sí."
+* [Arquitectura de Microservicios](./0001.2-Microservicios.md)
 * [Event driven](./0001.3-Event-Driven.md)
 
 ## UML de la decisión
