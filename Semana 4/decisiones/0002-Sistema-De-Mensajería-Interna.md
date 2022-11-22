@@ -35,4 +35,4 @@ Opción elegida: "Broker MQTT" porque es un protocolo pensado especialmente para
 ### Opciones Relacionadas
 
 * [Broker MQTT](./0002.1-Broker-Comunicacion-MQTT.md)
-* [Broker HTTP](./0002.2-Broker-Comunicaci%C3%B3n-HTTP.md)
+* [Broker HTTP](./0002.2-Broker-Comunicacion-HTTP.md)
