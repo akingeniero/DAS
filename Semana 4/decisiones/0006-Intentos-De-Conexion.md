@@ -18,7 +18,7 @@ dispositivo fuera de servicio.
 
 * [Proxy](./0006.2-Proxy.md): "Un proxy controla el acceso al objeto original, permitiéndote hacer algo antes o después de que la solicitud llegue al objeto original."
 
-* [Funcion del emisor](./0006.2-Proxy.md): "el emisor controla si se ha pasado el umbral de intetos de conexiones."
+* [Funcion del emisor](./0006.3-Funcion-del-Emisor.md): "el emisor controla si se ha pasado el umbral de intetos de conexiones."
 
 ## Decisiones tomadas
 
@@ -42,4 +42,4 @@ Opción elegida: "Retry" es mas especifica que el proxy, las dos opciones son mu
 
 * [Proxy](./0006.2-Proxy.md): "Un proxy controla el acceso al objeto original, permitiéndote hacer algo antes o después de que la solicitud llegue al objeto original."
 
-* [Funcion del emisor](./0006.2-Proxy.md): "el emisor controla si se ha pasado el umbral de intetos de conexiones."
+* [Funcion del emisor](./0006.3-Funcion-del-Emisor.md): "el emisor controla si se ha pasado el umbral de intetos de conexiones."
