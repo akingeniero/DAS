@@ -1,4 +1,4 @@
-# ADD-0001 Arquitectura-del-sistema
+# ADD-0001 Arquitectura del sistema
 
 * Date: 2022-11-22
 

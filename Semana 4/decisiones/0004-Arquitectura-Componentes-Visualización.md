@@ -1,6 +1,6 @@
 # ADD-0004 Arquitectura Secundaria para los componentes de visualización
 
-* Date: 2022-11-10
+* Date: 2022-11-22
 
 ## Contexto y problemas a resolver
 

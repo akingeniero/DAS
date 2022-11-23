@@ -1,6 +1,6 @@
-# ADD-0005.1 Strategy
+# ADD-0005 Diseño Algoritmos
 
-* Date: 2022-11-15
+* Date: 2022-11-22
 
 ## Contexto y problemas a resolver
 
@@ -13,9 +13,9 @@
 
 ## Opciones consideradas
 
-* [Strategy](./0005.1-Strategy.md): " Strategy es un patrón de diseño de comportamiento que te permite definir una familia de algoritmos, colocar cada uno de ellos en una clase separada y hacer sus objetos intercambiables"
+* [Strategy](./0005.1-Strategy.md): "Strategy es un patrón de diseño de comportamiento que te permite definir una familia de algoritmos, colocar cada uno de ellos en una clase separada y hacer sus objetos intercambiables"
 
-* [Chain_of_Responsibility](./0005.2-Chain-of-Responsability-Algoritmos.md): " Es un patrón de diseño de comportamiento que te permite pasar solicitudes a lo largo de una cadena de manejadores"
+* [Chain_of_Responsibility](./0005.2-Chain-of-Responsability-Algoritmos.md): "Es un patrón de diseño de comportamiento que te permite pasar solicitudes a lo largo de una cadena de manejadores"
 
 ## Decisiones tomadas
 
