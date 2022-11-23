@@ -38,4 +38,3 @@ Opción elegida: "Modelo Visto Controlador" por que permite crear múltiples cli
 ## UML de la decisión
 
 ![umlMVC](../uml/visor.png)
-
