@@ -34,3 +34,8 @@ Opción elegida: "Modelo Visto Controlador" por que permite crear múltiples cli
 
 * [Modelo Vista Controlador](./0004.1-Modelo-Vista-Controlador.md)
 * [Cliente Servidor](./0004.2-Cliente-Servidor.md)
+
+## UML de la decisión
+
+![umlMVC](../uml/visor.png)
+
